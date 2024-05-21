@@ -18,6 +18,18 @@ function createLantern() {
   lantern.style.left = left + 'px';
   lantern.style.bottom = '-' + size + 'px'; // 初期位置を設定
   lantern.style.transition = 'bottom ' + duration + 's linear';
+  lantern.style.backgroundImage = 'url("lantern.png")'; // 背景画像を設定
+
+  // ランタンをクリックしたときの処理
+  lantern.addEventListener('click', function() {
+      var modal = document.getElementById('modal');
+      var modalImg = document.getElementById('modalImage');
+      modal.style.display = 'block';
+      // 背景画像URLを正しく取得
+      var bgImage = lantern.style.backgroundImage;
+      var imageUrl = bgImage.slice(5, -2); // url("...") の部分を取り除く
+      modalImg.src = imageUrl;
+  });
 
   // ランタンをコンテナに追加
   container.appendChild(lantern);
@@ -31,6 +43,14 @@ function createLantern() {
   setTimeout(function() {
       container.removeChild(lantern);
   }, duration * 1000 + 50);
+}
+
+// モーダルを閉じる処理
+var modal = document.getElementById('modal');
+var span = document.getElementsByClassName('close')[0];
+
+span.onclick = function() {
+  modal.style.display = 'none';
 }
 
 // 一定間隔でランタンを生成
