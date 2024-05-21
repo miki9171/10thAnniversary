@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden; /* ページのスクロールを防止 */
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.lantern {
+  position: absolute;
+  background-image: url('lantern.png'); /* 天燈の画像を指定 */
+  background-size: cover;
+  bottom: 0;
+}
