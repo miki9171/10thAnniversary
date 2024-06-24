@@ -5,9 +5,9 @@ function getRandomInt(min, max) {
 function getRandomImage() {
   // 画像ファイルのリストを定義
   var images = [
-    'lantern/lantern2.png',
-    'lantern/lantern3.png',
-    // 追加の画像ファイルをここにリストする
+      'lantern/lantern2.png',
+      'lantern/lantern3.png',
+      // 追加の画像ファイルをここにリストする
   ];
   // ランダムに画像を選択
   var index = getRandomInt(0, images.length);
