@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('lantern_back.png'); /* 背景画像を設定 */
+  background-image: url('lantern_back_pc.png'); /* PC用背景画像 */
   background-size: cover; /* 画像が画面全体にフィットするように設定 */
   background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   background-position: center; /* 画像を中央に配置 */
@@ -60,4 +60,11 @@ body {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* スマホ用背景画像 */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('lantern_back_mobile.png');
+  }
 }
