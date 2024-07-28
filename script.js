@@ -7,6 +7,10 @@ function getRandomImage() {
   var images = [
       'lantern/lantern2.png',
       'lantern/lantern3.png',
+      'lantern/20240724_231357.png',
+      'lantern/20240728_122858.png',
+      'lantern/20240728_134550.png',
+      'lantern/20240728_165636.png',
       // 追加の画像ファイルをここにリストする
   ];
   // ランダムに画像を選択
