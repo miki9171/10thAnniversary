@@ -11,6 +11,8 @@ function getRandomImage() {
       'lantern/20240728_122858.png',
       'lantern/20240728_134550.png',
       'lantern/20240728_165636.png',
+      'lantern/20240730_001135.png',
+      'lantern/20240730_195634.png'
       // 追加の画像ファイルをここにリストする
   ];
   // ランダムに画像を選択
