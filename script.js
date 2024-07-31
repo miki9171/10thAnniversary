@@ -12,7 +12,19 @@ function getRandomImage() {
       'lantern/20240728_134550.png',
       'lantern/20240728_165636.png',
       'lantern/20240730_001135.png',
-      'lantern/20240730_195634.png'
+      'lantern/20240730_195634.png',
+      'lantern/20240730_224042.png',
+      'lantern/20240730_224744.png',
+      'lantern/20240730_235341.png',
+      'lantern/20240731_001911.png',
+      'lantern/20240731_002330.png',
+      'lantern/20240731_155838.png',
+      'lantern/20240731_165315.png',
+      'lantern/20240731_182316.png',
+      'lantern/20240731_184140.png',
+      'lantern/20240731_184217.png',
+      'lantern/20240731_184238.png',
+      'lantern/無題1339_20240730230852.png'
       // 追加の画像ファイルをここにリストする
   ];
   // ランダムに画像を選択
