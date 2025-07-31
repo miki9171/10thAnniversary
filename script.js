@@ -7,6 +7,18 @@ function getRandomImage() {
   var images = [
       'lantern/lantern2.png',
       'lantern/lantern3.png',
+      'lantern/A87B68CC-D903-4BBE-8429-969F4BE34E1D - 25jy0232馬 卉 沢.png',
+      'lantern/B82ACBD1-7A42-433F-B8B3-5C96EBE2BE44 - かなめ.png',
+      'lantern/IMG_1228 - Aりんご.png',
+      'lantern/IMG_2535 - たきあかり.png',
+      'lantern/IMG_2743 - ギガスロボロー.png',
+      'lantern/lantern - 亨子遠藤.png',
+      'lantern/イラスト(1).png',
+      'lantern/イラスト.PNG',
+      'lantern/無題146_20250731163335 - 玖音ゆう.png',
+      'lantern/無題21_20250731093030 - くらむぼん.png',
+      'lantern/無題24_20250731131046 - _m天音.png',
+      'lantern/無題593_20250730212309 - 太田遥香.png'
       // 追加の画像ファイルをここにリストする
   ];
   // ランダムに画像を選択
