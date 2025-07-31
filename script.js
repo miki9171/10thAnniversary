@@ -13,6 +13,7 @@ function getRandomImage() {
       'lantern/IMG_2535 - たきあかり.png',
       'lantern/IMG_2743 - ギガスロボロー.png',
       'lantern/lantern - 亨子遠藤.png',
+      'lantern/lantern - 川出共子.PNG',
       'lantern/イラスト(1).png',
       'lantern/イラスト.PNG',
       'lantern/無題146_20250731163335 - 玖音ゆう.png',
